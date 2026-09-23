@@ -1,0 +1,6 @@
+{
+  "name": "Airpulse APIx - Aviation Inflation Analytics",
+  "description": "Automated high-frequency air travel cost collection and Weighted Laspeyres Index pipeline for NSO and RBI official inflation statistics (SIH26056).",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

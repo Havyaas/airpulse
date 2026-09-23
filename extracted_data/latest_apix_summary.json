@@ -1,0 +1,71 @@
+{
+  "index_name": "Airpulse APIx (Aviation Price Index)",
+  "problem_statement": "SIH26056 - NSO & RBI High-Frequency Inflation Modernization",
+  "calculation_timestamp": "2026-09-23T18:45:00Z",
+  "base_reference_p0": 4500.0,
+  "apix_index_value": 118.64,
+  "weighted_mean_fare_inr": 5338.80,
+  "inflation_deflation_delta_pct": 18.64,
+  "total_valid_records": 164,
+  "sectors_monitored_count": 3,
+  "sector_breakdown": {
+    "DEL-BLR": {
+      "sector": "DEL-BLR",
+      "dgca_weight": 0.40,
+      "current_mean_fare_inr": 5620.50,
+      "base_reference_price_inr": 4500.0,
+      "sector_price_relative": 124.90,
+      "weighted_contribution": 49.96,
+      "records_count": 68
+    },
+    "BLR-DEL": {
+      "sector": "BLR-DEL",
+      "dgca_weight": 0.35,
+      "current_mean_fare_inr": 5480.20,
+      "base_reference_price_inr": 4500.0,
+      "sector_price_relative": 121.78,
+      "weighted_contribution": 42.62,
+      "records_count": 54
+    },
+    "DEL-BOM": {
+      "sector": "DEL-BOM",
+      "dgca_weight": 0.25,
+      "current_mean_fare_inr": 4690.00,
+      "base_reference_price_inr": 4500.0,
+      "sector_price_relative": 104.22,
+      "weighted_contribution": 26.06,
+      "records_count": 42
+    }
+  },
+  "lead_time_elasticity_curve": {
+    "DEL-BLR": {
+      "T+1": 8940.0,
+      "T+7": 6450.0,
+      "T+15": 5230.0,
+      "T+30": 4680.0,
+      "T+45": 4360.0
+    },
+    "BLR-DEL": {
+      "T+1": 8780.0,
+      "T+7": 6290.0,
+      "T+15": 5140.0,
+      "T+30": 4570.0,
+      "T+45": 4260.0
+    },
+    "DEL-BOM": {
+      "T+1": 7980.0,
+      "T+7": 5830.0,
+      "T+15": 4890.0,
+      "T+30": 4320.0,
+      "T+45": 4120.0
+    }
+  },
+  "decomposition_summary": {
+    "base_fare_share_pct": 78.0,
+    "taxes_fees_udf_share_pct": 22.0,
+    "mean_base_fare_inr": 4164.26,
+    "mean_taxes_fees_udf_inr": 1174.54
+  },
+  "imputed_records_count": 0,
+  "rejected_records_count": 8
+}
